@@ -162,6 +162,11 @@ export default function HomePage() {
     <main className="test">
       <h1 className="text-2xl font-bold mb-4">Instagram Profile Lookup</h1>
       <InstagramSearch />
+      <div>
+        <div>
+          <span>  © Mustafa Adenwala {new Date().getFullYear()}</span>
+        </div>
+      </div>
     </main>
   );
 }
