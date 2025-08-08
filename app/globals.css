@@ -5,6 +5,13 @@
   --foreground: #171717;
 }
 
+.test{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

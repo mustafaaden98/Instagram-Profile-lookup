@@ -159,7 +159,7 @@ import InstagramSearch from '@/app/components/InstragramSearch';
 
 export default function HomePage() {
   return (
-    <main className="p-6">
+    <main className="test">
       <h1 className="text-2xl font-bold mb-4">Instagram Profile Lookup</h1>
       <InstagramSearch />
     </main>
